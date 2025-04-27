@@ -20,7 +20,7 @@ const SearchBox = () => {
       <input
         type="text"
         onChange={handleSearch}
-        placeholder="Enter a search term.."
+        placeholder="Enter a search terms"
         className={s.input}
         id="search"
         value={filter}
