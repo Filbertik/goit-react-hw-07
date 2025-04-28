@@ -3,6 +3,8 @@ import axios from "axios";
 
 axios.defaults.baseURL = "https://680e843e67c5abddd19257bf.mockapi.io/";
 
+// Add updates to api
+
 export const fetchContacts = createAsyncThunk(
   "contacts/fetchAll",
   async (_, thunkAPI) => {
